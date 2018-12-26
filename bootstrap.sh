@@ -6,7 +6,7 @@ ELK_VERSION="6.2.4"
 
 # update apt
 sudo apt-get update
-sudo apt-get upgrade -y
+sudo apt-get DEBIAN_FRONTEND=noninteractive upgrade -y
 sudo apt-get install -y unzip git apt-transport-https default-jre
 
 java -version
